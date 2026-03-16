@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const h = String(now.getHours()).padStart(2, '0');
         const mm = String(now.getMinutes()).padStart(2, '0');
         const ss = String(now.getSeconds()).padStart(2, '0');
-        return `${y}-${m}-${d} ${h}:${mm}:${ss}`;
+        return `${y}-${m}-${d}`;
     }
 
     // Submit Logic
