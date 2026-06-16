@@ -157,12 +157,12 @@ document.addEventListener('DOMContentLoaded', () => {
             details.push({ label: '企业名称', value: data.companyName });
             details.push({ label: '统一社会信用代码', value: data.taxAccount });
             details.push({ label: '预期额度', value: data.expectedAmount + ' 万元' });
-            details.push({ label: '授信时间', value: applyTimeFormatted });
+            details.push({ label: '申请时间', value: applyTimeFormatted });
         } else {
             details.push({ label: '申请人姓名', value: data.applicantName });
             details.push({ label: '身份证号', value: data.idNumber });
             details.push({ label: '预期额度', value: data.expectedAmount + ' 万元' });
-            details.push({ label: '授信时间', value: applyTimeFormatted });
+            details.push({ label: '申请时间', value: applyTimeFormatted });
         }
 
         details.forEach(item => {
